@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <style>
+        /* Your CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .project-item {
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .project-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .project-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .project-link {
+            display: block;
+            text-align: center;
+            background-color: #009688;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* CSS for the navigation menu */
+nav {
+    background-color: #e49482;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+nav a.active {
+    background-color: black;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>My Projects</h1>
+
+    <div class="project-item">
+        <img src="findtheace.png" alt="Project 1">
+        <h2 class="project-title">Project 1</h2>
+        <p class="project-description">The project is a basic card game implemented using vanilla JavaScript, basic CSS, and HTML code. It covers various concepts such as animation effects, responsive layout design using CSS grid, CSS flexbox, and media queries, as well as dynamically changing the positions of grid cells to randomize the positions of the cards. The game involves four different cards, including the ace of spades. When the user clicks the "Play Game" button, the cards are flipped over, hiding their faces. The game then shuffles the positions of the cards, randomly placing them in a grid layout using JavaScript and local storage. The user can then guess the position of the ace of spades by clicking on a card. Once the user makes a choice, the selected card flips over, revealing its face, and the user is informed whether their guess was correct or not.</p>
+        <a href="https://avinash9115.github.io/aceCardGame-JS/" class="project-link" target="_blank" rel="noopener">Play</a>
+    </div>
+
+    <div class="project-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h2 class="project-title">Project 2</h2>
+        <p class="project-description">Project 2 is a responsive website built using HTML, CSS, and JavaScript. It adapts to different screen sizes.</p>
+        <a href="https://www.project2demo.com" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+
+    <!-- Add more project items as needed -->
+
+</body>
+</html>
